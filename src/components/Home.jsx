@@ -6,6 +6,13 @@ function Home() {
       <section className="flex flex-grow items-center justify-center bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900">
         <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center text-white h-full">
           <div className="flex flex-col justify-center items-center text-white lg:w-1/2 p-4">
+            <div>
+              <img
+                className="w-80 h-80 rounded-full"
+                src="src/assets/vanessa.jpg"
+                alt="foto de perfil"
+              />
+            </div>
             <h1 className="text-4xl font-bold mt-10">VANESSA ANTUNES</h1>
             <h2 className="text-4xl font-bold">Desenvolvedora Fullstack</h2>
           </div>
