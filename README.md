@@ -1,4 +1,4 @@
-##  Vanessa Antunes | Dev | Portifólio
+##  Vanessa Antunes | Dev | Portfólio
 
 Este repositório contém o código-fonte do meu site pessoal de portfólio. É uma vitrine digital onde apresento minhas habilidades e projetos como desenvolvedor. O site demonstra minha abordagem ao desenvolvimento, focando em design responsivo, interatividade e experiências de usuário.
 
