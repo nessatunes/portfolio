@@ -1,4 +1,5 @@
 import React from "react";
+import ImgPerfil from "../assets/vanessa.jpg";
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
             <div>
               <img
                 className="w-80 h-80 rounded-full"
-                src="src/assets/vanessa.jpg"
+                src={ImgPerfil}
                 alt="foto de perfil"
               />
             </div>

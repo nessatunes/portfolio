@@ -46,58 +46,61 @@ export default function Fetch() {
   }
 
   return (
-    <form onSubmit={submit} className="space-y-4">
-      <label htmlFor="name" className="block text-sm font-medium ">
-        Nome
-      </label>
-      <input
-        id="name"
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        required
-        className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-      />
+    <>
+      <form onSubmit={submit} className="space-y-4">
+        <label htmlFor="name" className="block text-sm font-medium ">
+          Nome
+        </label>
+        <input
+          id="name"
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+          className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+        />
 
-      <label htmlFor="email" className="block text-sm font-medium">
-        Email
-      </label>
-      <input
-        id="email"
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-        className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-      />
-      <label htmlFor="telefone" className="block text-sm font-medium">
-        Whatsapp
-      </label>
-      <input
-        id="telefone"
-        type="tel"
-        value={telefone}
-        onChange={(e) => setTelefone(e.target.value)}
-        required
-        className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-      />
+        <label htmlFor="email" className="block text-sm font-medium">
+          Email
+        </label>
+        <input
+          id="email"
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+        />
+        <label htmlFor="telefone" className="block text-sm font-medium">
+          Whatsapp
+        </label>
+        <input
+          id="telefone"
+          type="tel"
+          value={telefone}
+          onChange={(e) => setTelefone(e.target.value)}
+          required
+          className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+        />
 
-      <label htmlFor="message" className="block text-sm font-medium">
-        Message
-      </label>
-      <textarea
-        id="message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-      />
-
-      <button
-        type="submit"
-        className="px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-md"
-      >
-        Enviar
-      </button>
-    </form>
+        <label htmlFor="message" className="block text-sm font-medium">
+          Message
+        </label>
+        <textarea
+          id="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+        />
+      </form>
+      <div className="mt-10 text-center ">
+        <button
+          type="submit"
+          className="px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-md"
+        >
+          Enviar
+        </button>
+      </div>
+    </>
   );
 }

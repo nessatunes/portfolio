@@ -1,4 +1,10 @@
 import React from "react";
+import Banner from "../assets/banner.png";
+import Cardapio from "../assets/cardapio.jpg";
+import Codeburger from "../assets/codeburger.png";
+import Dasboard from "../assets/dasboard.png";
+import Foto from "../assets/foto.png";
+import Tela from "../assets/tela.png";
 
 function Projects() {
   return (
@@ -13,11 +19,10 @@ function Projects() {
             Aqui estão alguns dos meus projetos construidos nas aulas:
           </p>
           <div className="grid md:grid-cols-3 gap-5">
-
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto CodeBurger</h2>
               <img
-                src="src/assets/codeburger.png"
+                src={Codeburger}
                 alt="img do projeto"
                 className="h-60 w-auto rounded-lg"
               />
@@ -37,7 +42,7 @@ function Projects() {
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto Elite Tracker</h2>
               <img
-                src="src/assets/foto3.png"
+                src={Foto}
                 alt="img do projeto"
                 className="h-60 w-auto rounded-lg"
               />
@@ -57,7 +62,7 @@ function Projects() {
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto DevBills</h2>
               <img
-                src="src/assets/dasboard.png"
+                src={Dasboard}
                 alt="img do projeto"
                 className="h-60 w-auto rounded-lg"
               />
@@ -77,7 +82,7 @@ function Projects() {
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto Money</h2>
               <img
-                src="src/assets/banner.png"
+                src={Banner}
                 alt="img do projeto"
                 className="h-60 w-auto rounded-lg"
               />
@@ -97,7 +102,7 @@ function Projects() {
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto DevBurger</h2>
               <img
-                src="src/assets/cardapio.jpg"
+                src={Cardapio}
                 alt="img do projeto"
                 className="h-60 w-auto rounded-lg"
               />
@@ -117,7 +122,7 @@ function Projects() {
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto Conversor de moedas</h2>
               <img
-                src="src/assets/tela.png"
+                src={Tela}
                 alt="img do projeto"
                 className="h-60 w-auto rounded-lg"
               />
