@@ -147,7 +147,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="justify-center gap-4 p-4 mb-32">
+        <div className="justify-center mb-32">
           <div className="flex p-4 gap-4">
             <TfiEmail className="text-3xl hover:text-gray-400" />
             <p>E-mail: essatunes@gmail.com</p>

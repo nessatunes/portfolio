@@ -8,7 +8,7 @@ import Tela from "../assets/tela.png";
 
 function Projects() {
   return (
-    <div className="flex flex-col h-screen bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900">
+    <div className="flex flex-col bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900">
       <section
         id="projects"
         className="flex flex-grow items-center justify-center text-white "

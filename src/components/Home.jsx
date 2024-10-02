@@ -3,7 +3,7 @@ import ImgPerfil from "../assets/vanessa.jpg";
 
 function Home() {
   return (
-    <div className="flex flex-col h-screen overflow-hidden">
+    <div className="flex flex-col h-screen">
       <section className="flex flex-grow items-center justify-center bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900">
         <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center text-white h-full">
           <div className="flex flex-col justify-center items-center text-white lg:w-1/2 p-4">
