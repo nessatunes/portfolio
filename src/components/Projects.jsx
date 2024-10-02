@@ -8,23 +8,23 @@ import Tela from "../assets/tela.png";
 
 function Projects() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900">
+    <div className="flex flex-col h-screen bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900">
       <section
         id="projects"
-        className="flex flex-grow mt-10 items-center justify-center text-white "
+        className="flex flex-grow items-center justify-center text-white "
       >
-        <div className="max-2xl: mx-auto p-4 justify-center ">
-          <h2 className="text-3xl font-bold mb-4 text-center">Projetos</h2>
-          <p className="text-lg mb-10 text-center">
+        <div className="mx-auto p-4 justify-center ">
+          <h2 className="text-3xl font-bold mb-2 text-center">Projetos</h2>
+          <p className="text-lg mb-8 text-center">
             Aqui estão alguns dos meus projetos construidos nas aulas:
           </p>
-          <div className="grid md:grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div className=" justify-center text-center items-center max-w-xl h-auto     border rounded-lg p-5">
               <h2 className="mb-4">Projeto CodeBurger</h2>
               <img
                 src={Codeburger}
                 alt="img do projeto"
-                className="h-60 w-auto rounded-lg"
+                className="h-56 w-full rounded-lg object-contain "
               />
               <button
                 type="submit"
@@ -44,7 +44,7 @@ function Projects() {
               <img
                 src={Foto}
                 alt="img do projeto"
-                className="h-60 w-auto rounded-lg"
+                className="h-56 w-auto rounded-lg object-contain "
               />
               <button
                 type="submit"
@@ -64,7 +64,7 @@ function Projects() {
               <img
                 src={Dasboard}
                 alt="img do projeto"
-                className="h-60 w-auto rounded-lg"
+                className="h-56 w-auto rounded-lg object-cover"
               />
               <button
                 type="submit"
@@ -84,7 +84,7 @@ function Projects() {
               <img
                 src={Banner}
                 alt="img do projeto"
-                className="h-60 w-auto rounded-lg"
+                className="h-56 w-auto rounded-lg object-cover"
               />
               <button
                 type="submit"
@@ -104,7 +104,7 @@ function Projects() {
               <img
                 src={Cardapio}
                 alt="img do projeto"
-                className="h-60 w-auto rounded-lg"
+                className="h-56 w-auto rounded-lg object-cover"
               />
               <button
                 type="submit"
@@ -124,7 +124,7 @@ function Projects() {
               <img
                 src={Tela}
                 alt="img do projeto"
-                className="h-60 w-auto rounded-lg"
+                className="h-56 w-auto rounded-lg object-cover"
               />
               <button
                 type="submit"

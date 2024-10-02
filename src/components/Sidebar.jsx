@@ -12,8 +12,9 @@ import {
   faBars,
   faFolderOpen,
   faHouse,
-  faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import { TfiEmail } from "react-icons/tfi";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -37,17 +38,17 @@ const Sidebar = () => {
           fixed md:static top-0 left-0 z-10
           w-64 md:w-80 h-screen
           text-white p-8 bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900
-          overflow-y-auto
+          flex flex-col
         `}
       >
-        <div className="">
-          <div className="m-">
-            <h1 className="text-center text-3xl mt-6 mb-3">Vanessa Antunes</h1>
+        <div className="w-64 h-screen p-4 box-border">
+          <div className="">
+            <h1 className="text-center text-2xl mt-6 mb-3">Vanessa Antunes</h1>
             <h2 className="mb-6 text-center text-slate-300">
-              Desenvolvedora Fullstack
+              Desenvolvedora Full Stack
             </h2>
           </div>
-          <nav className="flex text-xl m-8">
+          <nav className="flex text-xl mt-8 mb-8 ">
             <ul className="flex flex-col w-full cursor-pointer">
               <li className="p-2">
                 <button
@@ -93,26 +94,15 @@ const Sidebar = () => {
                   Projetos
                 </button>
               </li>
-              <li className="p-2">
-                <button
-                  onClick={() => {
-                    navigate("/contact");
-                    setIsOpen(false);
-                  }}
-                  className="w-full text-left hover:bg-gray-700 rounded"
-                >
-                  <FontAwesomeIcon icon={faUser} className="mx-2 size-5" />
-                  Contato
-                </button>
-              </li>
             </ul>
           </nav>
+
           <div>
-            <div className="flex justify-center mt-20">
+            <div className="flex justify-center">
               <span className="text-xl mt-8">Redes Sociais</span>
             </div>
 
-            <div className="flex justify-center gap-4 my-4 p-4">
+            <div className="flex justify-center gap-4 p-4">
               <a
                 href="https://github.com/Nessatunes"
                 target="_blank"
@@ -154,6 +144,17 @@ const Sidebar = () => {
                 />
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="justify-center gap-4 p-4 mb-32">
+          <div className="flex p-4 gap-4">
+            <TfiEmail className="text-3xl hover:text-gray-400" />
+            <p>E-mail: essatunes@gmail.com</p>
+          </div>
+          <div className="flex p-4 gap-4 mb-4">
+            <FaLocationDot className="text-3xl hover:text-gray-400" />
+            <p>Localização: Dois Vizinhos, Paraná - Brasil</p>
           </div>
         </div>
       </section>

@@ -12,7 +12,7 @@ import { SiTypescript, SiPostgresql, SiBootstrap } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-screen">
       <section
         id="skills"
         className="flex-grow flex flex-col p-8 text-center bg-gradient-to-r from-indigo-950 via-blue-950 to-gray-900"
@@ -20,7 +20,7 @@ function Skills() {
         <h2 className="text-2xl font-bold mb-4 text-white p-5">
           Estudando as Tecnologias
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-center text-white p-5 gap-6">
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-center text-white p-5 gap-6">
           <div className="flex flex-col items-center m-10">
             <DiHtml5 size={40} className="text-red-500" />
             <p className="mt-2">HTML</p>
